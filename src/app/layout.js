@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
           <Stack direction="row" spacing={2} justifyContent="center" >
             <Link href={"/kakaoPay"}>카카오페이 연습</Link>
             <Link href={"/portOneKakao"}>포트원-카카오페이 연습</Link>
-            <Link href={"/naverPay"}>포트원-네이버페이 연습</Link>
+            <Link href={"/naverPay"}>네이버페이 연습</Link>
+            <Link href={"/tossPay"}>토스페이 연습</Link>
+            <Link href={"/chat"}>채팅방 연습</Link>
           </Stack>
         </nav>
         <hr />
